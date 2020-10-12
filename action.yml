@@ -1,0 +1,9 @@
+name: 'Use GitHub Token'
+description: 'Configure git to use a GitHub Access Token'
+inputs:
+  token:
+    description: 'GitHub Access Token'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
