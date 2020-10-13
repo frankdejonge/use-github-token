@@ -4,6 +4,12 @@ inputs:
   token:
     description: 'GitHub Access Token'
     required: true
+  user_name:
+    required: true
+    description: 'git config --global user.name value'
+  user_email:
+    required: true
+    description: 'git config --global user.email value'
 runs:
   using: 'node12'
   main: 'dist/index.js'

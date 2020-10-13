@@ -8,4 +8,6 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./
         with:
-          token: '${{ secrets.SOMETHING_SECRET }}'
+          token: '${{ secrets.PERSONAL_ACCESS_TOKEN }}'
+          user_name: 'Frank de Jonge'
+          user_email: 'info@frenky.net'
