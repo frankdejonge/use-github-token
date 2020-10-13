@@ -12,8 +12,8 @@ jobs:
       - uses: ./
         with:
           token: 'frankdejonge:${{ secrets.PERSONAL_ACCESS_TOKEN }}'
-          user_name: 'Frank de Jonge'
-          user_email: 'info@frenky.net'
+#          user_name: 'Frank de Jonge'
+#          user_email: 'info@frenky.net'
       - run: git clone git@github.com:frankdejonge/use-github-token.git repo
       - run: cd repo
       - run: git checkout -b testing
