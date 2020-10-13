@@ -1,5 +1,8 @@
 name: 'Use GitHub Token'
 description: 'Configure git to use a GitHub Access Token'
+branding:
+  icon: activity
+  color: green
 inputs:
   authentication:
     description: 'The authentication value'
