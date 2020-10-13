@@ -5,8 +5,8 @@ import * as process from 'process';
 import * as os from 'os';
 
 (async () => {
-    const token = core.getInput('token', { required: true });
-    const credentials = `https://${token}@github.com/`;
+    const authentication = core.getInput('authentication', { required: true });
+    const credentials = `https://${authentication}@github.com/`;
     const userName = core.getInput('user_name', { required: false }) || '';
     const userEmail = core.getInput('user_email', { required: false }) || '';
 

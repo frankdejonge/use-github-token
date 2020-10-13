@@ -1,8 +1,8 @@
 name: 'Use GitHub Token'
 description: 'Configure git to use a GitHub Access Token'
 inputs:
-  token:
-    description: 'GitHub Access Token'
+  authentication:
+    description: 'The authentication value'
     required: true
   user_name:
     required: false
