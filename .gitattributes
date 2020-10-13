@@ -1,0 +1,10 @@
+* text=auto
+
+.gitattributes export-ignore
+.gitignore export-ignore
+.github export-ignore
+index.js export-ignore
+package*.json export-ignore
+README.md export-ignore
+
+
