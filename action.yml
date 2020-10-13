@@ -5,10 +5,12 @@ inputs:
     description: 'GitHub Access Token'
     required: true
   user_name:
-    required: true
+    required: false
+    default: ''
     description: 'git config --global user.name value'
   user_email:
-    required: true
+    required: false
+    default: ''
     description: 'git config --global user.email value'
 runs:
   using: 'node12'
