@@ -16,5 +16,5 @@ inputs:
     default: ''
     description: 'git config --global user.email value'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
